@@ -1,0 +1,167 @@
+
+/* ==========================================================================
+   Base styles:
+   ========================================================================== */
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+}
+
+/* Fix for responsive images */
+
+body {
+	font-family: Times New Roman; sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+nav {
+
+	padding: 20px;
+	text-align: center;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	background-color: white;
+
+}
+
+nav a {
+	color: #7B98AA;
+	font-size: 16px;
+	margin: 40px;
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover{
+	color: grey;
+}
+
+
+
+
+ul {
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+}
+
+
+header {
+
+}
+
+.slider {
+	background-color: grey;
+
+}
+
+
+
+
+.hero {
+	width: 50%;
+	position: relative;
+	left: 350px;
+}
+
+.car {
+	position: absolute;
+	z-index: 1;
+}
+
+
+
+/* ----------------------------------------
+Slider
+------------------------------------------- */
+
+
+section {
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+section div {
+	margin: 50px;
+}
+
+/*Info Section*/
+
+
+main {
+	display: flex;
+	margin: 50px;
+}
+
+.col-2-3 {
+	width: 66.6666%;
+	padding: 20px;
+}
+
+.col-1-3 {
+	width: 33.33333%;
+	padding: 20px;
+}
+
+
+main div {
+	display:flex;
+	flex-direction: column;
+}
+
+.wrap {
+	display:inline-block;
+	flex-direction: column;
+}
+
+/* ----------------------------------------
+Slider
+------------------------------------------- */
+
+
+#custom-handle {
+    width: 3em;
+    height: 1.6em;
+    top: 50%;
+    margin-top: -.8em;
+    text-align: center;
+    line-height: 1.6em;
+  }
+
+/* ----------------------------------------
+Media Queries
+------------------------------------------- */
+.hamburger {
+	display: none;
+}
+
+@media screen and (max-width: 970px) {
+
+	.hamburger {
+		display: flex;
+		justify-content: center;
+		font-size: 50px;
+	}
+	nav a {
+		display:none;
+	}
+	.col-1-3 {
+		height: ;
+	}
+
+	.hero {
+		left:50px;
+	}
+}
+
