@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title></title>
+    <title>Dave's Road Trip</title>
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,33 +29,47 @@
     </nav>
     <p></p>
     <header>
-        <img src="img/map.jpg" class="hero">
-        <img src="img/car.png" class="car">
+        <div class="wrapper">
+            <img src="img/map.png" class="hero">
+        
+        
+            <img src="img/car.png" class="car day_0" id="carimage">
+        </div>    
+        
     </header>
 
-   
+
 
 <section id="slider">
-    <!-- Slider
-         Slider here, maybe JavaScript. Purpose of the slider is for a visitor to select a day of the roadtrip, and have the corresponding information show in the main.
-     </div> -->
+    <!--  Slider
+         Slider here, maybe JavaScript. Purpose of the slider is for a visitor to select a day of the roadtrip, and have the corresponding information show in the main. -->
+     </div>
   <div id="custom-handle" class="ui-slider-handle"></div>
-  <div id="slider" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
-    <div id="custom-handle" class="ui-slider-handle ui-corner-all ui-state-default" tabindex="0" style="left: 23%;">23</div>
+  <div id="slider" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content location">
+    <div id="custom-handle" class="ui-slider-handle ui-corner-all ui-state-default" tabindex="0" style="left: 23%;">0</div>
 </div>
 </section>
- 
-<section>
-    <div class="wrap">
-        <label for="days"> Pick a day to see where Dave went! </label>
-    </div>
-</section>
+
 
 <p></p>
-<main>
-    <div class="col-1-3">
-    <!-- This is for the information about the relevant day selected in the slider. -->
 
+
+<aside>
+    <h1 id="title"></h1>
+    <p id="introduction"></p>
+</aside>
+<main>
+
+
+
+<section>
+    <h1 id="name"></h1>
+    <p id="description"></p>
+    <img id="image" src="">
+</section>
+<!--     <div class="col-1-3">
+ -->    <!-- This is for the information about the relevant day selected in the slider. -->
+<!-- 
     <img src="img/geyser.jpeg">
     <p></p>
     <img src="img/eagle.jpeg">
@@ -65,12 +79,13 @@
     <div class="col-2-3">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae enim faucibus, luctus metus vitae, commodo dui. Morbi lacinia turpis elit, in laoreet felis pellentesque ut. Integer ac nulla nibh. Aliquam erat volutpat. Aenean tincidunt odio eget nibh sagittis lacinia. Proin metus enim, mollis ut sapien at, sodales fringilla lacus. Morbi vel metus eget mauris facilisis semper. Proin et ex vel nunc cursus consectetur. Integer faucibus quis arcu in ullamcorper. Pellentesque dignissim nec enim ut consectetur. Integer egestas feugiat sapien, et venenatis risus accumsan vel. Integer at vestibulum magna.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae enim faucibus, luctus metus vitae, commodo dui. Morbi lacinia turpis elit, in laoreet felis pellentesque ut. Integer ac nulla nibh. Aliquam erat volutpat. Aenean tincidunt odio eget nibh sagittis lacinia. Proin metus enim, mollis ut sapien at, sodales fringilla lacus. Morbi vel metus eget mauris facilisis semper. Proin et ex vel nunc cursus consectetur. Integer faucibus quis arcu in ullamcorper. Pellentesque dignissim nec enim ut consectetur. Integer egestas feugiat sapien, et venenatis risus accumsan vel. Integer at vestibulum magna.
-    </div>
+    </div> -->
     
 </main>
 
 
-
+<!--     <div id="destinations"></div>
+ -->
 
 
 
@@ -83,6 +98,9 @@
 <script src="js/vendor/jquery-1.12.0.min.js"></script> -->
  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<script src="js/main.js"></script>
-</body>
+    <script src="node_modules/contentful/browser-dist/contentful.js"></script>
+    <script src="js/main.js"></script>
+
+<!--     <script src="js/roadtrip.js"></script>
+ --></body>
 </html>
