@@ -26,6 +26,7 @@ $( function() {
 function updateLocation (daveLocation) {
   var car_element = $( "#carimage");
   car_element.removeClass()
+  car_element.addClass('day')
   car_element.addClass(`day_${daveLocation}`)
 }
 

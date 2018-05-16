@@ -24,7 +24,7 @@ nav {
 	text-align: center;
 	position: sticky;
 	top: 0;
-	z-index: 1;
+	z-index: 2;
 	background-color: white;
 
 }
@@ -90,11 +90,18 @@ header div {
 Car Locations
 ------------------------------------------- */
 
+
+.day {
+		transition: all .5s ease-in-out;
+
+}
+
 .day_0 {
 	position: absolute;
 	z-index: 1;
 	top: 37%;
 	left: 0%;
+	/*transition: all .3s*/
 }
 
 
@@ -102,7 +109,9 @@ Car Locations
 	position: absolute;
 	z-index: 1;
 	top: 23%;
-	left: 2%;	
+	left: 2%;
+	/*transition: all .3s*/
+
 }
 
 .day_2 {
@@ -129,183 +138,183 @@ Car Locations
 .day_5 {
 	position: absolute;
 	z-index: 1;
-	top: 10%;
-	left: 5%;
+	top: 11%;
+	left: 9%;
 }
 
 .day_6 {
 	position: absolute;
 	z-index: 1;
-	top: 10%;
-	left: 5%;
+	top: 11%;
+	left: 9%;
 }
 
 .day_7 {
 	position: absolute;
 	z-index: 1;
-	top: 10%;
-	left: 5%;
+	top: 11%;
+	left: 9%;
 }
 
 .day_8 {
 	position: absolute;
 	z-index: 1;
-	top: 10%;
-	left: 5%;
+	top: 11%;
+	left: 20%;
 }
 
 .day_9 {
 	position: absolute;
 	z-index: 1;
-	top: 10%;
-	left: 5%;
+	top: 11%;
+	left: 20%;
 }
 
 .day_10 {
 	position: absolute;
 	z-index: 1;
-	top: 10%;
-	left: 5%;
+	top: 11%;
+	left: 20%;
 }
 
 .day_11 {
 	position: absolute;
 	z-index: 1;
-	top: 10%;
-	left: 5%;
+	top: 11%;
+	left: 20%;
 }
 
 .day_12 {
 	position: absolute;
 	z-index: 1;
-	top: 10%;
-	left: 5%;
+	top: 11%;
+	left: 20%;
 }
 
 .day_13 {
 	position: absolute;
 	z-index: 1;
-	top: 10%;
-	left: 5%;
+	top: 11%;
+	left: 20%;
 }
 
 .day_14 {
 	position: absolute;
 	z-index: 1;
-	top: 10%;
-	left: 5%;
+	top: 21%;
+	left: 29%;
 }
 
 .day_15 {
 	position: absolute;
 	z-index: 1;
-	top: 10%;
-	left: 5%;
+	top: 21%;
+	left: 29%;
 }
 
 .day_16 {
 	position: absolute;
 	z-index: 1;
-	top: 10%;
-	left: 5%;
+	top: 24%;
+	left: 43%;
 }
 
 .day_17 {
 	position: absolute;
 	z-index: 1;
-	top: 10%;
-	left: 5%;
+	top: 24%;
+	left: 43%;
 }
 
 .day_18 {
 	position: absolute;
 	z-index: 1;
-	top: 10%;
-	left: 5%;
+	top: 24%;
+	left: 43%;
 }
 
 .day_19 {
 	position: absolute;
 	z-index: 1;
-	top: 10%;
-	left: 5%;
+	top: 21%;
+	left: 57%;
 }
 
 .day_20 {
 	position: absolute;
 	z-index: 1;
-	top: 10%;
-	left: 5%;
+	top: 21%;
+	left: 57%;
 }
 
 .day_21 {
 	position: absolute;
 	z-index: 1;
-	top: 10%;
-	left: 5%;
+	top: 21%;
+	left: 57%;
 }
 
 .day_22 {
 	position: absolute;
 	z-index: 1;
-	top: 10%;
-	left: 5%;
+	top: 38%;
+	left: 59%;
 }
 
 .day_23 {
 	position: absolute;
 	z-index: 1;
-	top: 10%;
-	left: 5%;
+	top: 38%;
+	left: 59%;
 }
 
 .day_24 {
 	position: absolute;
 	z-index: 1;
-	top: 10%;
-	left: 5%;
+	top: 44%;
+	left: 77%;
 }
 
 .day_25 {
 	position: absolute;
 	z-index: 1;
-	top: 10%;
-	left: 5%;
+	top: 44%;
+	left: 77%;
 }
 
 .day_26 {
 	position: absolute;
 	z-index: 1;
-	top: 10%;
-	left: 5%;
+	top: 52%;
+	left: 63%;
 }
 
 .day_27 {
 	position: absolute;
 	z-index: 1;
-	top: 10%;
-	left: 5%;
+	top: 52%;
+	left: 63%;
 }
 
 .day_28 {
 	position: absolute;
 	z-index: 1;
-	top: 10%;
-	left: 5%;
+	top: 28%;
+	left: 79%;
 }
 
 .day_29 {
 	position: absolute;
 	z-index: 1;
-	top: 10%;
-	left: 5%;
+	top: 28%;
+	left: 79%;
 }
 
 .day_30 {
 	position: absolute;
 	z-index: 1;
-	top: 10%;
-	left: 5%;
+	top: 25%;
+	left: 81%;
 }
 
 
