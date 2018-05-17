@@ -47,8 +47,12 @@ function updateDetail (daveLocation){
     console.log(entries)
     document.getElementById('name').innerHTML = entries.items[0].fields.name
     document.getElementById('description').innerHTML = entries.items[0].fields.description
-    document.getElementById('image').attr("src") = entries.items[0].fields.image.file.url
-    document.getElementById('image').src = entries.items[0].fields.pictures[0].file.url
+    document.getElementById('thoughts').innerHTML = entries.items[0].fields.thoughts
+    document.getElementById('haiku').innerHTML = entries.items[0].fields.haiku
+    console.log(JSON.stringify(entries.items[0].fields))
+    document.getElementById('image').src = "https:" +entries.items[0].fields.pictures[0].fields.file.url
+    // document.getElementById('image').src = entries.items[0].fields.pictures[0].file.https:url
+
 
   })
 }
